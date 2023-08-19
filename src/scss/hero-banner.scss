@@ -1,0 +1,31 @@
+.hero-banner {
+  color: #fff;
+  padding: 250px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+  .content {
+    span {
+      &.tag{
+        border-radius: 3px;
+        padding: 5px 10px;
+        background: #555;
+        font-weight: 700;
+        font-size: 13px;
+      }
+
+      &.price {
+        font-weight: 500;
+        font-size: 38px;
+      }
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+}
